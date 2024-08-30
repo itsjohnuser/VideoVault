@@ -1,0 +1,52 @@
+.scroll-bar{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  flex-shrink: 0;
+  overflow: hidden;
+  position: fixed;
+  margin-bottom:17px ;
+  z-index: 1;
+  top: 50px;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  width: 91%;
+  
+  
+
+
+  
+  
+}
+.scroll-bar .card{
+  white-space: nowrap;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color:rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  transition: background-color 0.15s;
+  font-weight: 500;
+  font-size: 13px;
+  
+  white-space-collapse: collapse;
+  text-wrap: nowrap;
+  
+  
+  
+
+}
+.card:not(:first-child){
+  margin-left: 3px;
+}
+.card:last-child{
+  background-color: white;
+  font-size:x-large;
+  text-align: center;
+  font-weight: lighter;
+}
+.card:first-child{
+ 
+  background-color: black;
+  color: white;
+}
